@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Resultado</title>
+</head>
+<body>
+ <h1>Resultado</h1>
+ <p th:text="${formulario.id}"></p>
+ <p th:text="${formulario.nombre}"></p>
+  <p th:text="${formulario.apellido}"></p>
+   <p th:text="${formulario.edad}"></p>
+ <a href="/form">Ingresar otro cliente</a>
+</body>
+</html>
